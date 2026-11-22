@@ -26,13 +26,13 @@
   <rect width="1200" height="300" rx="18" fill="url(#glow)"/>
 
   <g font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">
-    <text x="60" y="95" fill="#94a3b8" font-size="20" letter-spacing="4">HOLA, SOY</text>
+    <text x="60" y="95" fill="#94a3b8" font-size="20" letter-spacing="4">HI, I’M</text>
     <text x="58" y="158" fill="#f8fafc" font-size="58" font-weight="800">Nicolás Ricciardi</text>
     <rect x="60" y="178" width="120" height="5" rx="2.5" fill="url(#accent)">
       <animate attributeName="width" values="40;220;40" dur="6s" repeatCount="indefinite"/>
     </rect>
     <text x="60" y="225" fill="url(#accent)" font-size="26" font-weight="700">Full Stack Developer · AI Engineer</text>
-    <text x="60" y="258" fill="#64748b" font-size="17">React · Next.js · Node.js · FastAPI · Django · Docker · ML</text>
+    <text x="60" y="258" fill="#64748b" font-size="17">React · Angular · Node.js · FastAPI · Spring · .NET · LLMs</text>
   </g>
 
   <g transform="translate(780 52)">
@@ -43,7 +43,7 @@
     <g font-family="'Fira Code', Consolas, 'Courier New', monospace" font-size="15">
       <text x="20" y="62" fill="#a78bfa">const <tspan fill="#f8fafc">nico</tspan> <tspan fill="#94a3b8">=</tspan> <tspan fill="#94a3b8">{</tspan></text>
       <text x="40" y="88" fill="#22d3ee">stack<tspan fill="#94a3b8">:</tspan> <tspan fill="#34d399">"fullstack"</tspan><tspan fill="#94a3b8">,</tspan></text>
-      <text x="40" y="114" fill="#22d3ee">focus<tspan fill="#94a3b8">:</tspan> <tspan fill="#34d399">"web + IA"</tspan><tspan fill="#94a3b8">,</tspan></text>
+      <text x="40" y="114" fill="#22d3ee">focus<tspan fill="#94a3b8">:</tspan> <tspan fill="#34d399">"web + AI"</tspan><tspan fill="#94a3b8">,</tspan></text>
       <text x="40" y="140" fill="#22d3ee">from<tspan fill="#94a3b8">:</tspan> <tspan fill="#34d399">"UNLP, AR"</tspan><tspan fill="#94a3b8">,</tspan></text>
       <text x="20" y="166" fill="#94a3b8">};<tspan fill="#f8fafc"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>▍</tspan></text>
     </g>
