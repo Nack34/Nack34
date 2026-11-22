@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="100%" stop-color="#111a33"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22d3ee">
+        <animate attributeName="stop-color" values="#22d3ee;#a78bfa;#34d399;#22d3ee" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#a78bfa">
+        <animate attributeName="stop-color" values="#a78bfa;#34d399;#22d3ee;#a78bfa" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1e293b" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="80%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="18" fill="url(#grid)" opacity="0.6"/>
+  <rect width="1200" height="300" rx="18" fill="url(#glow)"/>
+
+  <g font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">
+    <text x="60" y="95" fill="#94a3b8" font-size="20" letter-spacing="4">HOLA, SOY</text>
+    <text x="58" y="158" fill="#f8fafc" font-size="58" font-weight="800">Nicolás Ricciardi</text>
+    <rect x="60" y="178" width="120" height="5" rx="2.5" fill="url(#accent)">
+      <animate attributeName="width" values="40;220;40" dur="6s" repeatCount="indefinite"/>
+    </rect>
+    <text x="60" y="225" fill="url(#accent)" font-size="26" font-weight="700">Full Stack Developer · AI Engineer</text>
+    <text x="60" y="258" fill="#64748b" font-size="17">React · Next.js · Node.js · FastAPI · Django · Docker · ML</text>
+  </g>
+
+  <g transform="translate(780 52)">
+    <rect width="370" height="196" rx="12" fill="#0f172a" stroke="#334155"/>
+    <circle cx="20" cy="20" r="6" fill="#f87171"/>
+    <circle cx="40" cy="20" r="6" fill="#fbbf24"/>
+    <circle cx="60" cy="20" r="6" fill="#34d399"/>
+    <g font-family="'Fira Code', Consolas, 'Courier New', monospace" font-size="15">
+      <text x="20" y="62" fill="#a78bfa">const <tspan fill="#f8fafc">nico</tspan> <tspan fill="#94a3b8">=</tspan> <tspan fill="#94a3b8">{</tspan></text>
+      <text x="40" y="88" fill="#22d3ee">stack<tspan fill="#94a3b8">:</tspan> <tspan fill="#34d399">"fullstack"</tspan><tspan fill="#94a3b8">,</tspan></text>
+      <text x="40" y="114" fill="#22d3ee">focus<tspan fill="#94a3b8">:</tspan> <tspan fill="#34d399">"web + IA"</tspan><tspan fill="#94a3b8">,</tspan></text>
+      <text x="40" y="140" fill="#22d3ee">from<tspan fill="#94a3b8">:</tspan> <tspan fill="#34d399">"UNLP, AR"</tspan><tspan fill="#94a3b8">,</tspan></text>
+      <text x="20" y="166" fill="#94a3b8">};<tspan fill="#f8fafc"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>▍</tspan></text>
+    </g>
+  </g>
+</svg>
